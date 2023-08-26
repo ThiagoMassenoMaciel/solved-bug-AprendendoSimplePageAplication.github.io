@@ -1,6 +1,7 @@
 # solved-bug-AprendendoSimplePageAplication.github.io
 error was /. into the source  main script 
 #### When i dowload the zip code by this repository works good and i execute with liveServer on a VsCode
+https://github.com/ThiagoMassenoMaciel/solved-bug-AprendendoSimplePageAplication.github.io/assets/107934374/6babf807-3b91-4ab7-9dac-4c7de945444a
 ##### but no work's here on the githubPages ... Why ?
 # link
 [aqui](https://thiagomassenomaciel.github.io/solved-bug-AprendendoSimplePageAplication.github.io/)
