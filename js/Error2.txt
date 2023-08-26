@@ -1,0 +1,61 @@
+N esta executando a funcão route()
+pois seu nome na tag html é diferente do que tem no script js
+
+onclick="router()" !== route()
+Remova a função router() do atributo onclick dos links, já que ela não estava definida.
+
+
+
+troquei o nome para 
+route()
+
+troquei o nome para 
+window.route()
+
+no index.js coloquei o 
+window.route      = () => obj.route() ;    e ainda continua só funcionando o link do home 
+aparece bem rapidão UncaughtError
+e depois ele executa o padrao do link e redireciona para a pasta que ele n usa 
+GET http://127.0.0.1:5501/about 404 (Not Found)
+
+
+dica do chat jpt tmbm n deu certo 
+event.preventDefault(); obj.route(event);
+
+Quando eu clico no link 
+about , contat erro
+ aparece que o arquivo n foi encontrado 
+so funciona o link home 
+os outros links n executa a funcão route() dentro do arquivo router.js 
+
+mesmo quando eu coloco o call back  no file index.js para n disparar o evento padrão 
+
+
+
+
+TENTATIVA colocar em uma pasta com poucos files 
+
+n funcionou 
+
+
+Fala ai Beatriz, tudo bem? Esse erro de 404 é porque o back-end não conseguiu achar nenhuma rota (endpoint) que combine com o que você está requisitando.
+
+Dê uma olhada no endereço completo para onde a requisição foi feita e verifique se o servidor está rodando, na porta requisitada e se a rota também existe.
+
+Espero ter ajudado.
+
+
+
+
+
+
+# antes era assim  quando n funcionava 
+## Click no link [aqui]() e faça o teste
+
+    <script src="./js/index.html" type="module">    </script>
+
+# quando ajeitei funcionou tirando o "./"
+# e em uma pasta com pucos arquivos
+## Click no link [aqui]() e faça o teste
+
+    <script src="js/index.html" type="module">    </script>
